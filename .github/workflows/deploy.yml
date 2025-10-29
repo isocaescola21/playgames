@@ -21,11 +21,11 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref =='refs/heads/main'
     outputs:
-      page_url: ${{stops.deployment.outputs.page_url}}
+      page_url: ${{steps.deployment.outputs.page_url}}
 
     enviromment:
       name: github-pages
-      url: ${{ stops.deployment.outputs.page_url}}
+      url: ${{ steps.deployment.outputs.page_url}}
 
     steps:
       - name: 📤 Checkout code
