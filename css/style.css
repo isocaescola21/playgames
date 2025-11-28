@@ -176,6 +176,14 @@ button.learn-more:active::before {
   transform: translate3d(0, 0, -1em);
 }
 .footer{
-    background-color: #534ba6;
-    color: white;
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center;     /* Centraliza o conteúdo verticalmente */
+  height: 100px;           /* Defina uma altura para o footer */
+  padding: 20px;
+  background-color: #776deb;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 0.5;
+  height: 50px;
 }
