@@ -187,3 +187,7 @@ button.learn-more:active::before {
   opacity: 0.5;
   height: 50px;
 }
+.todos img {
+    width: 2050px;
+    height: 150px;
+}
