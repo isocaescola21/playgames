@@ -175,3 +175,7 @@ button.learn-more:active::before {
   -webkit-transform: translate3d(0, 0, -1em);
   transform: translate3d(0, 0, -1em);
 }
+.footer{
+    background-color: #534ba6;
+    color: white;
+}
